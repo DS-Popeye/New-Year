@@ -11,6 +11,7 @@ body {
 
 .main-container {
     background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
     display: flex;
     justify-content: right;
 }
@@ -31,4 +32,28 @@ body {
 .intro-description {
     font-size: 16px;
     padding-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    padding: 100px 100px;
+}
+
+
+.container-write {
+    width: 50%;
+    padding: 160px 150px;
+}
+
+.container-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container-description {
+    font-size: 16px;
+}
+
+.list {
+    list-style-type: square;
 }
