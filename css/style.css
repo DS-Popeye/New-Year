@@ -57,3 +57,9 @@ body {
 .list {
     list-style-type: square;
 }
+
+.Container-Plan,
+.plan {
+    display: flex;
+    justify-content: center;
+}
