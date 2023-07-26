@@ -11,7 +11,7 @@ body {
 }
 
 .main-container {
-    background-image: url(../images/banner/banner1.png);
+    background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
     display: flex;
     justify-content: right;
@@ -86,11 +86,6 @@ body {
     margin: 50px 100px;
     background-image: url('../images/gradient2.png'), url('../images/watch.png');
     background-repeat: no-repeat;
-}
-
-.ads>h2 {
-    font-size: 40px;
-    font-weight: bold;
 }
 
 .container-ads {
