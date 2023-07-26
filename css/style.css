@@ -3,6 +3,25 @@ body {
     margin: 0;
 }
 
+nav {
+    padding: 0;
+    margin: 0;
+}
+
+nav>ul>li {
+    display: inline;
+}
+
+nav>ul>li>a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav>ul>li>a:hover {
+    background-color: antiquewhite;
+    color: #F15B22;
+}
+
 
 .intro {
     width: 30%;
@@ -12,6 +31,20 @@ body {
 
 .main-container {
     background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: right;
+}
+
+.main-container-2 {
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: right;
+}
+
+.main-container-3 {
+    background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
     display: flex;
     justify-content: right;
@@ -86,6 +119,18 @@ body {
 .ads {
     margin: 50px 100px;
     background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+}
+
+.ads-2 {
+    margin: 50px 100px;
+    background-image: url('../images/gradient3.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+}
+
+.ads-3 {
+    margin: 50px 100px;
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
     background-repeat: no-repeat;
 }
 
