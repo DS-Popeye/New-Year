@@ -28,6 +28,7 @@ body {
     border: 0;
     border-radius: 5px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .intro-description {
@@ -95,12 +96,14 @@ body {
 }
 
 .btn {
-    padding: 10px 30px;
+    padding: 8px 20px;
     color: #F15B22;
     border: 0;
     background-color: white;
     border-radius: 5px;
     font-weight: bold;
+    text-decoration: none;
+    font-size: 10px;
 }
 
 .footer-container {
